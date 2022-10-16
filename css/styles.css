@@ -1,0 +1,183 @@
+
+body{
+    text-align: center;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-weight: bold;
+    
+}
+
+p{
+    color: gray;
+}
+
+.big-heading{
+    padding: 10% 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    
+}
+
+.section-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 6% 15%;
+}
+
+/* Section */
+.colored-section{
+    color: white;
+    background-color: #ff4c68;
+
+}
+
+.white-section{
+     background-color: #fff;
+}
+
+
+/* Navigation bar */
+.navbar{
+    padding:  2% 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.navbar-brand{
+    padding-left: 2%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+
+/* Title Section */
+#title{
+    
+    font-size: large;
+    height: 580px;
+    text-align: left;
+}
+
+#title .container-fluid{
+     padding: 3% 7%;
+}
+
+/* Title image */
+.title-image{
+    width: 50%;
+    transform: rotate(25deg);
+    padding-top: 15%;
+    position: absolute;
+    right: 40%;
+}
+
+.row{
+    padding-left: 6rem;
+}
+
+/* Features section */
+
+#features{
+    position: relative;
+}
+
+.feature-box{
+    
+    padding: 4.5%;
+}
+
+.icon{
+    
+    color: #f9abaa;
+}
+
+.icon:hover{
+    color:#ff4c68 ;
+}
+
+.feature-title{
+    padding-top: 10%;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    padding-top: 5%;
+    background-color: #f9abaa;
+}
+
+.testimonials-image{
+    margin: 20px;
+    width: 20%;
+    border-radius: 100%;
+}
+
+.testimonial-text{
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+/* Press Section */
+
+#press{
+    background-color: #f9abaa;
+}
+
+.press-logo{
+    width: 20%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 90px;
+    
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+  /* Footer Section */
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }  
+ .title-image{   
+    position: static;
+    transform: rotate(0);
+ }
+}
+
+
+
+
+
+
+ 
